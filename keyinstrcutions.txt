@@ -1,0 +1,6 @@
+#
+# 2048 bit OpenVPN static key
+#
+-----BEGIN OpenVPN Static key V1-----
+Create your own static key here (easy-peasy) https://openvpn.net/community-resources/static-key-mini-howto/
+-----END OpenVPN Static key V1-----
