@@ -1,0 +1,88 @@
+{
+  "id": "xxxxxxxxx/VNResource/providers/xxx/deployments/Microsoft.VirtualNetwork-xxxxx",
+  "name": "Microsoft.VirtualNetwork-20201206160544",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "xxx/Vxxxxxxe/providers/Microsoft.Network/virtualNetworks/VN1",
+    "marketplaceItemId": "Microsoft.VirtualNetwork-ARM"
+  },
+  "properties": {
+    "templateHash": "30xxxxxxxx0133",
+    "parameters": {
+      "location": {
+        "type": "String",
+        "value": "westeurope"
+      },
+      "virtualNetworkName": {
+        "type": "String",
+        "value": "VN1"
+      },
+      "resourceGroup": {
+        "type": "String",
+        "value": "VNResource"
+      },
+      "addressSpaces": {
+        "type": "Array",
+        "value": [
+          "10.0.0.0/16"
+        ]
+      },
+      "ipv6Enabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "subnetCount": {
+        "type": "Int",
+        "value": 1
+      },
+      "subnet0_name": {
+        "type": "String",
+        "value": "default"
+      },
+      "subnet0_addressRange": {
+        "type": "String",
+        "value": "10.0.0.0/24"
+      },
+      "ddosProtectionPlanEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "firewallEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "bastionEnabled": {
+        "type": "Bool",
+        "value": false
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2020-12-06T15:07:36.256857Z",
+    "duration": "PT4.9503974S",
+    "correlationId": "axxx45a5xxxxxx-a12e-9f21a33d7dca",
+    "providers": [
+      {
+        "namespace": "Microsoft.Network",
+        "resourceTypes": [
+          {
+            "resourceType": "VirtualNetworks",
+            "locations": [
+              "westeurope"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/xxxxxxxxxxxxxxxxx/rexxxxxx/xxxxxxxxxxxxe/providers/Microsoft.Network/VirtualNetworks/VN1"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}
